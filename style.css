@@ -1,0 +1,228 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+body{
+    color: blue;
+}
+.header{
+    position:static;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 5%;
+    background-color: rgba(4, 50, 50, 0.8);
+    
+    
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+    align-items:center;
+    z-index: 100;
+}
+.logo{
+    font-size: 33px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    filter: drop-shadow(0 0 5px black);
+}
+.navbar a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .3s;
+}
+.navbar a:hover ,
+.navbar a.active {
+    color:coral;
+
+}
+.main{
+    min-height: 100vh;
+    background: purple;
+    background-size:cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 200%;
+}
+.home{
+    position: relative;
+    left: -50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;   
+}
+.home-content{
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content h1{
+    font-size: 77px;
+    font-weight: 700px;
+    text-shadow:0 0 33px rgba(0, 0, 0, .3);
+}
+.home-content p{
+    font-size: 17px;
+    text-align: center;
+    text-shadow:0 0 33px rgba(0, 0, 0, .3);
+    margin-bottom: 30px;
+}
+.home-content .start-btn{
+    width: 180px;
+    height: 55px;
+    background: #9a2d9a;
+    border: 3px solid #fff;
+    outline:invert;
+    border-radius:5px;
+    box-shadow: 0 0 10px #c400c4;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+}
+.home-content .start-btn:hover{
+    background: black;
+    box-shadow: none;
+}
+.quiz-section{
+    position: relative;
+    left: -50%;
+    width: 100%;
+    background: seagreen;
+    transition: 0.8s ease-in-out;
+    transition-delay: .25s;
+    z-index: 100;
+}
+.quiz-section.active{
+    left: 0;
+}
+.Themes{
+    position: relative;
+    background:rgba(6, 72, 72, 0.8);
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.Theme-content{
+    max-width: fit-content;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+.Theme-content .Theme1{
+    width: 450px;
+    height: 300px;
+    background: #866d06;
+    border: 8px solid black;
+    outline:invert;
+    border-radius:5px;
+    box-shadow: 0 0 8px #2ec400;
+    font-size: 18px;
+    color: #d42727;
+    vertical-align: top;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+    margin:40px;
+
+}
+.Theme-content .Theme1:hover{
+    background: black;
+    box-shadow: none;
+}
+.Theme-content .Theme2{
+    width: 450px;
+    height: 300px;
+    background: #387742;
+    border: 8px solid black;
+    outline:invert;
+    border-radius:5px;
+    box-shadow: 0 0 8px #2ec400;
+    font-size: 18px;
+    color: #d42727;
+    vertical-align: top;
+    
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+    margin:40px;
+
+
+}
+.Theme-content .Theme2:hover{
+    background: black;
+    box-shadow: none;
+}
+.Theme-content .Theme3{
+    width: 450px;
+    height: 300px;
+    background: #866d06;
+    border: 8px solid black;
+    outline:invert;
+    border-radius:5px;
+    box-shadow: 0 0 8px #2ec400;
+    font-size: 18px;
+    color: #d42727;
+    vertical-align: top;
+    
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+    margin:40px;
+
+
+}
+.Theme-content .Theme3:hover{
+    background: black;
+    box-shadow: none;
+}
+.Theme-content .Theme4{
+    width: 450px;
+    height: 300px;
+    background: #866d06;
+    border: 8px solid black;
+    outline:invert;
+    border-radius:5px;
+    box-shadow: 0 0 8px #2ec400;
+    font-size: 18px;
+    color: #d42727;
+    vertical-align: top;
+    
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+    margin:40px;
+
+
+}
+.Theme-content .Theme4:hover{
+    background: black;
+    box-shadow: none;
+}
+
+
