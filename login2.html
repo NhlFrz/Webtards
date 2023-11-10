@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>Link CSS to HTML</title>
+    <script src="script2.js"></script> 
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+<div id="login-box">
+    <div class="left">
+      <h1>SIGN UP</h1>
+      <form action="/registration" method="post">
+           <input type="email" name="email" placeholder="E-mail" />
+           <input type="text" name="username" placeholder="Username"/>
+
+           <input type="password" name="password" placeholder="Password" />
+          <input type="password" name="confirmpassword" placeholder="Confirm Password" />
+          <label for="user-type" >Choose your user-type</label>
+            <select name="user-type" id="user-type">
+              <option value="Admin">Admin</option>
+              <option value="Student">Student</option>
+            </select><br>
+          <input type="submit" name="signin_submit" value="Sign up" />
+           <div class="login-signup">
+            <a href="#" class="login-link">Already have an account? Log in</a>
+          </div>
+      </form>
+    </div>
+    <div id="login-popup" class="popup">
+      <div class="popup-content">
+        <h2>Login</h2>
+        <input name="username" type="username" value="" class="input form-control" id="username" placeholder="username" required="true" aria-label="username" aria-describedby="basic-addon1" />
+        <input name="password" type="password" value="" class="input form-control" id="password" placeholder="password" required="true" aria-label="password" aria-describedby="basic-addon1" />
+        <div class="input-group-append">  
+          <span class="input-group-text" onclick="password_show_hide();">
+            <i class="fas fa-eye" id="show_eye"></i>
+            <i class="fas fa-eye-slash d-none" id="hide_eye"></i>
+          </span>
+        </div>
+        <div class="col-6">
+          <div class="form-group form-check text-left">
+            <input type="checkbox" name="remember" class="form-check-input" id="remember_me" />
+            <label class="form-check-label" for="remember_me">Remember me</label>
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit" name="signin">Login</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="popup">
+        <!-- Popup content goes here -->
+      </div>
+    </div>
+    
+    <div class="right">
+      <span class="loginwith">Sign up with<br />social network</span>
+      
+      <button class="social-signup facebook">Facebook</button>
+      <button class="social-signup linkedin">LinkedIn</button>
+      <button class="social-signup google">Google</button>
+      <button class="social-signup Github">Github</button>
+
+    </div>
+    <div class="or">OR</div>
+  </div>
+  
