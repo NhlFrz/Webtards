@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-        <title>General Quiz</title>
-        <link rel = "stylesheet" href = "style.css"> 
-    </head> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Quiz</title>
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="instructions" class="popup">
+            <h2>Welcome to the Quiz!</h2>
+            <p>Read the instructions and get ready to test your knowledge.</p>
+            <button id="startQuiz" class="button">Start Quiz</button>
+        </div>
+        <div id="quiz" class="hide">
+            <!-- Questions and options will be dynamically added here -->
+        </div>
+        <div id="result" class="result hide">
+            <h2>Quiz Result</h2>
+            <p id="score"></p>
+            <button id="retry" class="button">Retry</button>
+            <button id="showAnswer" class="button hide">Show Answers</button>
+        </div>
+        <div id="timer" class="timer hide">30</div>
+    </div>
+    <script src="general.js"></script>
+</body>
 </html>
