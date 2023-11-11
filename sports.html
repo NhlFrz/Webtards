@@ -5,61 +5,62 @@
         <meta http-equiv="X-UA-Compatible" content = "IE=edge">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <title>Sports Quiz</title>
-        <link rel = "stylesheet" href = "style.css"> 
+        <link rel = "stylesheet" href = "sports.css"> 
     </head> 
 
     <body>
         <div id="sports-container" class="centered-flex">
-        
-                <button class="play-btn">PROCEED</button> 
-                <div class="sports-container centered-flex hidden">
-                    <div class="instructions hidden"> 
-                        <section class="top">Instructions</section>
-                        <ul> 
-                            <li>You have 10 seconds time to answer each question.</li> 
-                            <li>If the timer runs out before you submit an answer, the question will be marked as unanswered.</li> 
-                            <li>Once an option is selected, it cannot be changed.</li> 
-                            <li>You will earn points for each correct answer.</li> 
-                            <li>There is no penalty for incorrect answers, so feel free to guess if you're unsure.</li> 
-                            <li>You can also see your total score at the top.</li> 
-                            <li>After finishing the quiz, you'll see your final score and a summary of your answers.</li> 
-                            <li>Click the "Play Quiz" button to begin the quiz.</li>
+               
+            <button class="play-btn">PROCEED</button> 
+            <div class="sports-container centered-flex hidden">
+                <div class="instructions hidden"> 
+                    <section class="top">Instructions</section>
+                    <ul> 
+                        <li>You have 10 seconds time to answer each question.</li> 
+                        <li>If the timer runs out before you submit an answer, the question will be marked as unanswered.</li> 
+                        <li>Once an option is selected, it cannot be changed.</li> 
+                        <li>You will earn points for each correct answer.</li> 
+                        <li>There is no penalty for incorrect answers, so feel free to guess if you're unsure.</li> 
+                        <li>You can also see your total score at the top.</li> 
+                        <li>After finishing the quiz, you'll see your final score and a summary of your answers.</li> 
+                        <li>Click the "Play Quiz" button to begin the quiz.</li>
 
-                        </ul>
-                        <button class="start-quiz">START QUIZ</button>
-                    </div>    
-                    <div class="game centered-flex hidden">
-                        <section class="top">
-                            <div class="level">LEVEL:<span>1</span></div>
-                            <div class="level">SCORE:<span>0</span></div>
-                            <div class="timer"></div>
+                    </ul>
+                    <button class="start-quiz">START QUIZ</button>
+                </div>    
+                <div class="game centered-flex hidden">
+                    <section class="top">
+                        <div class="level">LEVEL:<span>1</span></div>
+                        <div class="level">SCORE:<span>0</span></div>
+                        <div class="timer"></div>
 
-                        </section>
-                        <section class = "body">
-                            <div class = "ques-container centered-flex">
-                                <div class = "ques-number"></div>
-                                <div class = "question centered-flex"></div>
-                            </div>
-                            <ol class = "options centered-flex">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ol>
-                        </section>
-                        <section class = "bottom centered-flex">
-                            <div class = "question-count">
-                                <span>1</span>
-                                Questions
-                            </div>
-                            <button class ="next-btn"></button>
-                        </section>
+                    </section>
+                    <section class = "body">
+                        <div class = "ques-container centered-flex">
+                            <div class = "ques-number"></div>
+                            <div class = "question centered-flex"></div>
+                        </div>
+                        <ol class = "options centered-flex">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </section>
+                    <section class = "bottom centered-flex">
+                        <div class = "question-count">
+                            <span>1</span>
+                            Questions
                         
-                </div>
-                <div class = "result hidden centered-flex">
-                    <div class = "text">Congrats! You have completed this level</div>
-                </div>
-                
+                            <button class ="next-btn"></button>
+                        </div>
+                    </section>
+                    
+            </div>
+            <div class = "result centered-flex hidden">
+                <div class = "text">Congrats! You have completed this level</div>
+            
+            
                 <div class = "details">
                     <table>
                         <thead>
