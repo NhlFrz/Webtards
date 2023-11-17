@@ -98,7 +98,7 @@ body{
     transition: .6s;
 }
 .home-content .start-btn:hover{
-    background: rgb(68, 36, 21);
+    background: rgb(55, 36, 27);
     color: lightgoldenrodyellow;
     box-shadow: none;
 }
