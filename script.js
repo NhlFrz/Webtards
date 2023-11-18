@@ -11,6 +11,9 @@ startBtn.onclick = () => {
     main.classList.remove('active');
 }
 
+function redirectToLoginPage() {
+  window.location.href = "login2.html";
+}
 Theme1.onclick = () => {
     location.href = "http://127.0.0.1:5500/general.html";
 }
